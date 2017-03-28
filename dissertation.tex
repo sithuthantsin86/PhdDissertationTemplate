@@ -1,42 +1,42 @@
 %&preformat-disser
-\RequirePackage[l2tabu,orthodox]{nag} % ђаскомментировав, можно в логе получать рекомендации относительно правильного использованиЯ пакетов и предупреждениЯ об устаревших и нерекомендуемых пакетах
-% ”ормат Ђ4, 14pt (ѓЋ‘’ ђ 7.0.11-2011, 5.3.6)
+\RequirePackage[l2tabu,orthodox]{nag} % Р Р°СЃРєРѕРјРјРµРЅС‚РёСЂРѕРІР°РІ, РјРѕР¶РЅРѕ РІ Р»РѕРіРµ РїРѕР»СѓС‡Р°С‚СЊ СЂРµРєРѕРјРµРЅРґР°С†РёРё РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РїСЂР°РІРёР»СЊРЅРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїР°РєРµС‚РѕРІ Рё РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ РѕР± СѓСЃС‚Р°СЂРµРІС€РёС… Рё РЅРµСЂРµРєРѕРјРµРЅРґСѓРµРјС‹С… РїР°РєРµС‚Р°С…
+% Р¤РѕСЂРјР°С‚ Рђ4, 14pt (Р“РћРЎРў Р  7.0.11-2011, 5.3.6)
 \documentclass[a4paper,14pt,oneside,openany]{memoir}
 
-\input{common/setup}               % общие настройки шаблона
-\input{common/packages}  % Џакеты общие длЯ диссертации и автореферата
-\input{Dissertation/dispackages}         % Џакеты длЯ диссертации
-\input{Dissertation/userpackages}        % Џакеты длЯ специфических пользовательских задач
+\input{common/setup}               % РѕР±С‰РёРµ РЅР°СЃС‚СЂРѕР№РєРё С€Р°Р±Р»РѕРЅР°
+\input{common/packages}  % РџР°РєРµС‚С‹ РѕР±С‰РёРµ РґР»СЏ РґРёСЃСЃРµСЂС‚Р°С†РёРё Рё Р°РІС‚РѕСЂРµС„РµСЂР°С‚Р°
+\input{Dissertation/dispackages}         % РџР°РєРµС‚С‹ РґР»СЏ РґРёСЃСЃРµСЂС‚Р°С†РёРё
+\input{Dissertation/userpackages}        % РџР°РєРµС‚С‹ РґР»СЏ СЃРїРµС†РёС„РёС‡РµСЃРєРёС… РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… Р·Р°РґР°С‡
 
-\input{Dissertation/setup}               % “прощЮнные настройки шаблона
+\input{Dissertation/setup}               % РЈРїСЂРѕС‰С‘РЅРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё С€Р°Р±Р»РѕРЅР°
 
-\input{Dissertation/preamblenames}       % Џереопределение именований, чтобы можно было и в преамбуле использовать
-\input{common/newnames}  % Ќовые переменные, которые могут использоватьсЯ во всЮм проекте
+\input{Dissertation/preamblenames}       % РџРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ РёРјРµРЅРѕРІР°РЅРёР№, С‡С‚РѕР±С‹ РјРѕР¶РЅРѕ Р±С‹Р»Рѕ Рё РІ РїСЂРµР°РјР±СѓР»Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ
+\input{common/newnames}  % РќРѕРІС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ, РєРѕС‚РѕСЂС‹Рµ РјРѕРіСѓС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ РІРѕ РІСЃС‘Рј РїСЂРѕРµРєС‚Рµ
 
-\input{common/data}      % Ћсновные сведениЯ
-\input{common/styles}    % ‘тили общие длЯ диссертации и автореферата
-\input{Dissertation/disstyles}           % ‘тили длЯ диссертации
-\input{Dissertation/userstyles}          % ‘тили длЯ специфических пользовательских задач
-\input{biblio/bibliopreamble}% Ќастройки библиографии из внешнего файла (там же выбор: встроеннаЯ или на основе biblatex)
+\input{common/data}      % РћСЃРЅРѕРІРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+\input{common/styles}    % РЎС‚РёР»Рё РѕР±С‰РёРµ РґР»СЏ РґРёСЃСЃРµСЂС‚Р°С†РёРё Рё Р°РІС‚РѕСЂРµС„РµСЂР°С‚Р°
+\input{Dissertation/disstyles}           % РЎС‚РёР»Рё РґР»СЏ РґРёСЃСЃРµСЂС‚Р°С†РёРё
+\input{Dissertation/userstyles}          % РЎС‚РёР»Рё РґР»СЏ СЃРїРµС†РёС„РёС‡РµСЃРєРёС… РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… Р·Р°РґР°С‡
+\input{biblio/bibliopreamble}% РќР°СЃС‚СЂРѕР№РєРё Р±РёР±Р»РёРѕРіСЂР°С„РёРё РёР· РІРЅРµС€РЅРµРіРѕ С„Р°Р№Р»Р° (С‚Р°Рј Р¶Рµ РІС‹Р±РѕСЂ: РІСЃС‚СЂРѕРµРЅРЅР°СЏ РёР»Рё РЅР° РѕСЃРЅРѕРІРµ biblatex)
 
-\input{Dissertation/inclusioncontrol}    % “правление компилЯцией отдельных частей диссертации
+\input{Dissertation/inclusioncontrol}    % РЈРїСЂР°РІР»РµРЅРёРµ РєРѕРјРїРёР»СЏС†РёРµР№ РѕС‚РґРµР»СЊРЅС‹С… С‡Р°СЃС‚РµР№ РґРёСЃСЃРµСЂС‚Р°С†РёРё
 
 \begin{document}
 
-\input{common/renames}                   % Џереопределение именований
+\input{common/renames}                   % РџРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ РёРјРµРЅРѕРІР°РЅРёР№
 
-% ‘труктура диссертации (ѓЋ‘’ ђ 7.0.11-2011, 4)
-\include{Dissertation/title}           % ’итульный лист
-\include{Dissertation/contents}        % Ћглавление
-\include{Dissertation/introduction}    % ‚ведение
-\include{Dissertation/part1}           % ѓлава 1
-\include{Dissertation/part2}           % ѓлава 2
-\include{Dissertation/part3}           % ѓлава 3
-\include{Dissertation/conclusion}      % ‡аключение
-\include{Dissertation/acronyms}        % ‘писок сокращений и условных обозначений
-\include{Dissertation/dictionary}      % ‘ловарь терминов
-\include{Dissertation/references}      % ‘писок литературы
-\include{Dissertation/lists}           % ‘писки таблиц и изображений (иллюстративный материал)
-\include{Dissertation/appendix}        % ЏриложениЯ
+% РЎС‚СЂСѓРєС‚СѓСЂР° РґРёСЃСЃРµСЂС‚Р°С†РёРё (Р“РћРЎРў Р  7.0.11-2011, 4)
+\include{Dissertation/title}           % РўРёС‚СѓР»СЊРЅС‹Р№ Р»РёСЃС‚
+\include{Dissertation/contents}        % РћРіР»Р°РІР»РµРЅРёРµ
+\include{Dissertation/introduction}    % Р’РІРµРґРµРЅРёРµ
+\include{Dissertation/part1}           % Р“Р»Р°РІР° 1
+\include{Dissertation/part2}           % Р“Р»Р°РІР° 2
+\include{Dissertation/part3}           % Р“Р»Р°РІР° 3
+\include{Dissertation/conclusion}      % Р—Р°РєР»СЋС‡РµРЅРёРµ
+\include{Dissertation/acronyms}        % РЎРїРёСЃРѕРє СЃРѕРєСЂР°С‰РµРЅРёР№ Рё СѓСЃР»РѕРІРЅС‹С… РѕР±РѕР·РЅР°С‡РµРЅРёР№
+\include{Dissertation/dictionary}      % РЎР»РѕРІР°СЂСЊ С‚РµСЂРјРёРЅРѕРІ
+\include{Dissertation/references}      % РЎРїРёСЃРѕРє Р»РёС‚РµСЂР°С‚СѓСЂС‹
+\include{Dissertation/lists}           % РЎРїРёСЃРєРё С‚Р°Р±Р»РёС† Рё РёР·РѕР±СЂР°Р¶РµРЅРёР№ (РёР»Р»СЋСЃС‚СЂР°С‚РёРІРЅС‹Р№ РјР°С‚РµСЂРёР°Р»)
+\include{Dissertation/appendix}        % РџСЂРёР»РѕР¶РµРЅРёСЏ
 
 \end{document}
